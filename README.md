@@ -7,6 +7,7 @@ The `postgis/postgis` image provides tags for running Postgres with [PostGIS](ht
 This image ensures that the default database created by the parent `postgres` image will have the following extensions installed:
 
 * `postgis`
+* `postgis_raster` #for 3.0+
 * `postgis_topology`
 * `fuzzystrmatch`
 * `postgis_tiger_geocoder`
