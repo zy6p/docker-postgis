@@ -52,7 +52,7 @@ endif
 
 # The repository and image names default to the official but can be overriden
 # via environment variables.
-REPO_NAME  ?= postgis
+REPO_NAME  ?= registry.cn-hangzhou.aliyuncs.com/opengis
 IMAGE_NAME ?= postgis
 
 DOCKER=docker
