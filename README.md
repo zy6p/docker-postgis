@@ -13,6 +13,12 @@ This image ensures that the default database created by the parent `postgres` im
 
 Unless `-e POSTGRES_DB` is passed to the container at startup time, this database will be named after the admin user (either `postgres` or the user specified with `-e POSTGRES_USER`). If you would prefer to use the older template database mechanism for enabling PostGIS, the image also provides a PostGIS-enabled template database called `template_postgis`.
 
+## China Mirror
+
+```shell
+docker pull registry.cn-hangzhou.aliyuncs.com/opengis/postgis
+```
+
 ## Usage
 
 In order to run a basic container capable of serving a PostGIS-enabled database, start a container as follows:
